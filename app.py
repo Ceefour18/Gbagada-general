@@ -4,6 +4,7 @@ import gspread
 from datetime import datetime
 import uuid # To generate unique referral IDs
 
+st.set_page_config(layout="wide", page_title="Hospital Referral System 🏥")
 # --- Configuration ---
 # Make sure 'credentials.json' is in the same directory as your app.py
 # For Streamlit Cloud deployment, you'd store this content in st.secrets
