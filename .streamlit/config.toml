@@ -1,5 +1,2 @@
-```toml
- # .streamlit/config.toml
- [server]
- fileWatcherType = "none"
- ```
+[server]
+fileWatcher = "none"
